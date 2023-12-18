@@ -1,0 +1,63 @@
+.none{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    
+    border-radius: 10px;
+  
+}
+
+.ntwo{ 
+   
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.ntwo li{
+    padding:20px 50px ;
+    cursor: pointer;
+}
+.ntwo a{
+    font-size: 25px;
+    color: #ea0f1e;
+    font-weight: 600;
+}
+
+  
+ 
+
+
+@media screen and (max-width:720px){
+    .none{
+        width: 300px;
+        margin: auto;
+        height: 70px;
+       
+    }
+    .ntwo li{
+        padding:20px 10px ;
+    }
+    .ntwo a{
+        font-size: 20px;
+        color: #ea0f1e;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width:360px){
+    .none{
+        width: 250px;
+        margin: auto;
+        height: 70px;
+       
+    }
+    .ntwo li{
+        padding:20px 5px ;
+    }
+    .ntwo a{
+        font-size: 18px;
+        color: #ea0f1e;
+        font-weight: 400;
+    }
+}

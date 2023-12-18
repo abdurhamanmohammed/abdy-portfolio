@@ -1,0 +1,33 @@
+.abone{
+    width: 100%;
+    height: 60%;
+    
+    margin-top: 40px 0px;
+}
+.abtwo{
+    width: 70%;
+   
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.abtwo p{
+  font-size: 2vw;
+  line-height: 40px;
+}
+.abtwo h3{
+    font-size: 30px;
+    padding: 20px 10px;
+}
+@media screen and (max-width:920px){
+    .abtwo p{
+        font-size: 2vw;
+        line-height: 25px;
+      }
+      .abtwo h3{
+        font-size: 25px;
+        padding: 15px 10px;
+    }
+}

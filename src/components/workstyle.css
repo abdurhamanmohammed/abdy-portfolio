@@ -1,0 +1,35 @@
+.works{
+    width: 100%;
+    padding: 30px 10px;
+}
+.works h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.wone{ 
+padding-top: 20px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 40px;
+
+ margin: auto;
+ 
+}
+.wtwo{
+    background-color: bisque;
+    padding: 20px;
+}
+.wthree img{
+    width: 100%;
+}
+@media screen and (max-width:740px){
+    .wone{ 
+        
+         grid-template-columns: 1fr;
+        
+         width: 90%;
+    
+         
+        }
+}

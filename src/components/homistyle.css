@@ -1,0 +1,64 @@
+.hone{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.htwo::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    
+}
+.htwo img{
+    width: 100%;
+    height: 100vh;
+    background-position: center ;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.hthree{
+    position: absolute ;
+    margin-left: 50px;
+    left: 25%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.hthree a{
+    font-size: 60px;
+   
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.hthree .hfour{
+    color: #ea0f1e;
+}
+
+@media screen and (max-width:720px){
+    .hthree a{
+        font-size: 40px;
+       
+        padding: 10px 0px;
+        text-transform: capitalize;
+    }
+}
+@media screen and (max-width:360px){
+    .hthree a{
+        font-size: 25px;
+       
+        padding: 10px 0px;
+        text-transform: capitalize;
+    }
+}
